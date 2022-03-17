@@ -69,7 +69,7 @@ points(XX[,3], Y.hat, pch=20, col="red")
 
 ## k-fold cross validation
 kfCV=function(X,Y,a){
-  #a is the number of folds
+  # a is the number of folds
   # The matrix Folds has in each column the index number for that particular fold
   min.x=function(y){
     return((y-x)^2)

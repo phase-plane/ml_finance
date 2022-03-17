@@ -140,3 +140,16 @@ X.hat <- as.matrix(x)
 
 y.hat <- KNN(X.mat,Y,80,X.hat)
 points(x,y.hat, col="red")
+
+## reproducing lecture slides
+set.seed(100)
+sigma=0.1
+X=2*runif(1000)-1
+Y=2*X^2+sigma*rnorm(1000)
+plot(X,Y,pch=20,col="blue",cex=0.6)
+
+X <- as.matrix(X)
+Y <- as.matrix(Y)
+sanity <- KNN(X,Y,50,X)
+points(X,sanity, xlim=c(-1,1), ylim=c(-0.3,2), col="green", 
+     cex=1, pch=20, xlab="", ylab="")
