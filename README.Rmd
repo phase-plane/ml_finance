@@ -1,0 +1,25 @@
+---
+title: "README"
+output: md_document
+---
+## Overview
+Machine Learning in Finance  \
+
+Spring 2022  \
+
+R code and .pdf submissions
+
+Week | Topic (Linked to folder)
+--- | ---
+1 | [Primer using KNN](https://github.com/phase-plane/ml_finance/tree/master/Week%201)
+2 | [Resampling Methods](https://github.com/phase-plane/ml_finance/tree/master/Week%202)
+3 | [Linear Regression](https://github.com/phase-plane/ml_finance/tree/master/Week%203)
+4 | [Gauss Process Regression](https://github.com/phase-plane/ml_finance/tree/master/Week%204)
+5 | [Decision Trees](https://github.com/phase-plane/ml_finance/tree/master/Week%205)
+6 | [Neural Networks and Deep Learning](https://github.com/phase-plane/ml_finance/tree/master/Week%206)
+
+
+Assignment | Topic (Linked to folder)
+--- | ---
+1 | [Trading Signals](https://github.com/phase-plane/ml_finance/tree/master/A1)
+2 | [Gauss Process Regression for Option Pricing](https://github.com/phase-plane/ml_finance/tree/master/A2)
